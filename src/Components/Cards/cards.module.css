@@ -1,0 +1,15 @@
+.cards {
+  width: 300px;
+  height: 350px;
+  border: 1px solid #ccc;
+}
+
+.cards .img img {
+  width: 100%;
+  background-size: contain;
+}
+
+.cards .list {
+  width: 100%;
+  text-align: center;
+}

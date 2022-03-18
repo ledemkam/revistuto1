@@ -1,0 +1,37 @@
+.caom {
+  width: 100%;
+}
+
+.caom .div1 {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.caom .div1 h1 {
+  padding-left: 2%;
+}
+.caom .div1 div {
+  width: 13%;
+  height: 3vh;
+}
+.caom .div1 div input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.caom .div1 h4 {
+  padding-right: 12%;
+}
+
+.caom .div2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  justify-content: center;
+  grid-gap: 10px;
+  width: 100%;
+}
